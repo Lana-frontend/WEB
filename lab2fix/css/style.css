@@ -1,0 +1,239 @@
+body{
+    font-family: Verdana;
+    margin: 0
+   }
+  
+   .dws-menu{
+    height: 100%;
+    width: 100%;
+    
+    
+   }
+
+   ul.dws-ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    
+   }
+
+   li.dws-li {
+    list-style: none;
+    padding: 10px;
+   }
+
+   li.dws-li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    position: relative;
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+   }
+
+  
+
+   li.dws-li a:hover{
+    background: rgb(59, 10, 116); 
+    color: #fff; 
+    padding: 7px; 
+    border-radius: 20px; 
+   
+   }
+
+   .concert{
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    
+   }
+   .head{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    margin-right: 1070;
+    
+   }
+
+   .singer{
+       height: 650px;
+       width: 30%;
+       font-size: 20;
+       margin-left: 40px;
+       font-family: 'Julius Sans One', sans-serif;
+       
+
+   }
+
+     .head2{
+     text-align: center;
+     font-family: 'Orbitron', sans-serif;
+     font-size: 50px;
+     margin-left: 1070;
+    
+   }
+
+   .singer2{
+    height: 650px;
+    width: 30%;
+    font-size: 20;
+    font-family: 'Julius Sans One', sans-serif;
+    
+    list-style-type: none;
+    float: right; 
+    margin: 7px 0 7px 7px; 
+
+}
+
+.vid{
+    height: 650px;
+    width: 30%;
+   
+}
+
+.tx{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+  
+
+}
+
+.v_menu{
+	position: absolute;
+    width: 300;
+    height: 90;
+	left: 670;
+    top: -9999px;
+    margin-top: 65;
+	opacity: 0;
+	border-left: 10px solid transparent;
+    transition: 0.5s opacity;
+    list-style-type: none;
+    line-height: 1.7
+}
+.dws-li:hover .v_menu{
+	opacity: 1;
+    top: 0;
+    
+}
+
+.new{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 100;
+    margin-top: 10;
+}
+
+.clip{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 40;
+    margin: 0 400 0 400
+}
+
+.pol{
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0 400 0 400;
+    text-align: center;
+    font-size: 17px;
+}
+
+.lis{
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0 400 0 400;
+    margin-left: 400;
+    font-size: 15px;  
+    list-style-type: disc;
+    margin-top: 20;
+}  
+
+  .lol{
+    animation: move 2s;
+    margin-top: 10;
+    
+  }
+   
+  @keyframes move {
+    from {
+      margin-left: 9999%;
+      width: 50%; 
+      height: 50%;
+    }
+  
+    to {
+      width: 7%;
+      height: 9%;
+    }
+  }
+
+  
+
+  .vid1{
+      margin: 0.5%;
+      position: relative;
+     
+  }
+  
+  .vid2{
+     margin: 0.5%;
+     position: relative;
+  }
+
+  .vid3{
+      margin: 0.5%;
+      position: relative;
+  }
+
+  .container{
+     margin-left: 3.5%;
+      display: flex;
+      flex-direction: column;
+      
+      
+      
+      
+  }
+
+  .vo{
+      display: flex;
+  }
+  .vo1{
+      display: flex
+  }
+
+  .s1{
+    
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  }
+
+  .s2{
+    
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  }
+
+  .s3{
+    
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  }
+
+  
+              
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
