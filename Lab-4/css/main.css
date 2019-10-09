@@ -1,0 +1,129 @@
+.navbar{
+    animation: move 1.5s;
+}
+
+@keyframes move {
+    from {
+      margin-left: 999%;
+    }
+}
+
+.nav-item{
+    margin: 2.5vw;
+    font-size: 17px;
+    font-family: 'Orbitron', sans-serif;  
+}
+
+.logo{
+    margin-left: 2vw;  
+}
+
+.concert{
+    display: flex;
+    height: 100%;
+    margin-top: 5vw;
+    margin-bottom: 10vw
+}
+
+.block1{
+    display: flex;
+    flex-direction: column
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+}
+
+.block3{
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+@media screen and (max-width: 990px){
+    .concert{
+        display: inline;
+    }
+
+    .logo{
+        opacity: 0.2;
+        z-index: -1;
+    }
+
+    .logo:hover{
+        opacity: 1;
+    }
+
+    .navbar-nav{
+        background-color: white;
+    }
+}
+
+h1 , h2 ,  h3 , h3 , h4 , h5{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center
+}
+
+ p{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15;
+    text-align: center
+}
+
+.sing{
+    font-family: 'Julius Sans One', 'Orbitron';
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    border: none;
+    background: transparent;    
+}
+
+.dropdown:hover>.dropdown-menu {
+    transform: scale(1.3);
+    max-width: 100%;
+    margin: 0
+}
+
+.dropdown-menu a:hover{
+    background: transparent;
+
+}
+
+@media screen and (max-width: 1120px){
+    .nav-item{
+        font-size: 13px;
+    }
+
+    .nav-item:hover{
+        font-size: 14px;
+    }
+
+    .dropdown-item{
+        font-size: 13px;
+    }
+
+    .dropdown-item:hover{
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 991px){
+    .dropdown-menu .dropdown-item{
+        margin-left: 9vw
+    }
+}
+
+.nav-item:hover{
+    font-size: 14px
+}
+
+.dropdown-item{
+    font-size: 12px;
+}
+
+.dropdown-item:hover{
+    font-size: 11px
+}
